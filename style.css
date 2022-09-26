@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./gaelle-marcel-wkn_KHBExcE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+
+.container {
+    padding: 1rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-box {
+    margin: 1rem;
+}
+
+.text {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.time-label {
+    font-size: 1.5rem;
+}
+
+.auto-type {
+    color: rgb(255, 0, 140);
+    font-size: 2.8rem;
+}
